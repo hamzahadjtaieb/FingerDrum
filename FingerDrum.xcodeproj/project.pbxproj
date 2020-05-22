@@ -3,18 +3,99 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0413586924323EAE00F34A32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413586824323EAE00F34A32 /* AppDelegate.swift */; };
+		0361180E68D4D12AF0FECB14 /* Pods_FingerDrumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF7C6CD4296F43D4E5B1F11 /* Pods_FingerDrumTests.framework */; };
+		04072D8B246EAFEC008AD0AF /* TR606-Kic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04072D84246EAFEA008AD0AF /* TR606-Kic.wav */; };
+		04072D8C246EAFEC008AD0AF /* TR606-Tom.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04072D85246EAFEA008AD0AF /* TR606-Tom.wav */; };
+		04072D8D246EAFEC008AD0AF /* TR606-Snr.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04072D86246EAFEB008AD0AF /* TR606-Snr.wav */; };
+		04072D8E246EAFEC008AD0AF /* TR606-Hat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04072D87246EAFEB008AD0AF /* TR606-Hat.wav */; };
+		04072D8F246EAFEC008AD0AF /* TR606-HiH.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04072D88246EAFEB008AD0AF /* TR606-HiH.wav */; };
+		04072D90246EAFEC008AD0AF /* TR606-Cym.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04072D89246EAFEC008AD0AF /* TR606-Cym.wav */; };
+		04072D91246EAFEC008AD0AF /* TR606-OpH.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04072D8A246EAFEC008AD0AF /* TR606-OpH.wav */; };
+		040E6670245F9E7F001D7D12 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 040E666D245F9E7D001D7D12 /* song2.mp3 */; };
+		040E6671245F9E7F001D7D12 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 040E666E245F9E7E001D7D12 /* song3.mp3 */; };
+		040E6672245F9E7F001D7D12 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 040E666F245F9E7F001D7D12 /* song1.mp3 */; };
+		040E6676245FA17B001D7D12 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E6675245FA17B001D7D12 /* PlayerViewController.swift */; };
 		0413586B24323EAE00F34A32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413586A24323EAE00F34A32 /* ViewController.swift */; };
-		0413586E24323EAE00F34A32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0413586C24323EAE00F34A32 /* Main.storyboard */; };
 		0413587124323EAF00F34A32 /* FingerDrum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0413586F24323EAF00F34A32 /* FingerDrum.xcdatamodeld */; };
-		0413587324323EB000F34A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0413587224323EB000F34A32 /* Assets.xcassets */; };
 		0413587624323EB000F34A32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0413587424323EB000F34A32 /* LaunchScreen.storyboard */; };
 		0413588124323EB000F34A32 /* FingerDrumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413588024323EB000F34A32 /* FingerDrumTests.swift */; };
 		0413588C24323EB000F34A32 /* FingerDrumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413588B24323EB000F34A32 /* FingerDrumUITests.swift */; };
+		0413589B24329AF300F34A32 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413589A24329AF300F34A32 /* User.swift */; };
+		0413589F2432AB8100F34A32 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413589E2432AB8100F34A32 /* HomeViewController.swift */; };
+		042100F9246AF89400CD2D9F /* SwiftNewsVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042100F8246AF89200CD2D9F /* SwiftNewsVideo.swift */; };
+		04426E532433BA3F00A89511 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04426E522433BA3F00A89511 /* FirstTableViewCell.swift */; };
+		04426E5A2433BDA800A89511 /* FirstInsideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04426E592433BDA800A89511 /* FirstInsideCollectionViewCell.swift */; };
+		04515021246BFB2C009D3A69 /* ShowTrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04515020246BFB2C009D3A69 /* ShowTrackDetailsViewController.swift */; };
+		04515022246C0C4E009D3A69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0413586C24323EAE00F34A32 /* Main.storyboard */; };
+		04515024246C0C7E009D3A69 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04515023246C0C7E009D3A69 /* SignUpViewController.swift */; };
+		04515026246C39B7009D3A69 /* AdminCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04515025246C39B7009D3A69 /* AdminCTableViewCell.swift */; };
+		04515028246C3A2D009D3A69 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04515027246C3A2D009D3A69 /* AdminViewController.swift */; };
+		04515029246C3A2F009D3A69 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F7A8C2453BD0800445080 /* ProfileViewController.swift */; };
+		0475E2882453A1AE0021C3FA /* CaviarDreams_BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0475E2842453A1AE0021C3FA /* CaviarDreams_BoldItalic.ttf */; };
+		0475E2892453A1AE0021C3FA /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0475E2852453A1AE0021C3FA /* CaviarDreams.ttf */; };
+		0475E28A2453A1AE0021C3FA /* CaviarDreams_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0475E2862453A1AE0021C3FA /* CaviarDreams_Italic.ttf */; };
+		0475E28B2453A1AE0021C3FA /* CaviarDreams_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0475E2872453A1AE0021C3FA /* CaviarDreams_Bold.ttf */; };
+		0475E28F2453AF770021C3FA /* musc_home12.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0475E28E2453AF770021C3FA /* musc_home12.mp4 */; };
+		04793199245FDCCD006CEA45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413586824323EAE00F34A32 /* AppDelegate.swift */; };
+		047931A4245FED08006CEA45 /* DrumKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047931A3245FED03006CEA45 /* DrumKit.swift */; };
+		047931AC245FED0E006CEA45 /* drumkit-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0479319B245FECF8006CEA45 /* drumkit-1.wav */; };
+		047931AD245FED0E006CEA45 /* drumkit-0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0479319C245FECF8006CEA45 /* drumkit-0.wav */; };
+		047931AE245FED0E006CEA45 /* drumkit-2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0479319D245FECF8006CEA45 /* drumkit-2.wav */; };
+		047931AF245FED0E006CEA45 /* drumkit-3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0479319E245FECF8006CEA45 /* drumkit-3.wav */; };
+		047931B0245FED0E006CEA45 /* drumkit-6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0479319F245FECF8006CEA45 /* drumkit-6.wav */; };
+		047931B1245FED0E006CEA45 /* drumkit-4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 047931A0245FECF8006CEA45 /* drumkit-4.wav */; };
+		047931B2245FED0E006CEA45 /* drumkit-5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 047931A1245FECF8006CEA45 /* drumkit-5.wav */; };
+		047931B5245FEDCC006CEA45 /* DrummerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047931B3245FEDC9006CEA45 /* DrummerViewController.swift */; };
+		047931B6245FEDCC006CEA45 /* RecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047931B4245FEDC9006CEA45 /* RecViewController.swift */; };
+		047931B824600763006CEA45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047931B724600763006CEA45 /* Assets.xcassets */; };
+		047931BA24600B6C006CEA45 /* PopUpWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047931B924600B6C006CEA45 /* PopUpWindow.swift */; };
+		04BA07C1246EB55300AC896E /* Rec2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA07C0246EB55300AC896E /* Rec2ViewController.swift */; };
+		04BA07C3246EB96100AC896E /* Synth Chord F#m.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07C2246EB96100AC896E /* Synth Chord F#m.wav */; };
+		04BA07C5246EB98300AC896E /* Synth Chords Cm11-122bpm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07C4246EB98300AC896E /* Synth Chords Cm11-122bpm.wav */; };
+		04BA07CC246EB9FD00AC896E /* chill03_F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07C6246EB9FC00AC896E /* chill03_F.wav */; };
+		04BA07CD246EB9FD00AC896E /* chill01_E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07C7246EB9FC00AC896E /* chill01_E.wav */; };
+		04BA07CE246EB9FD00AC896E /* chill05_A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07C8246EB9FC00AC896E /* chill05_A.wav */; };
+		04BA07CF246EB9FD00AC896E /* chill06_A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07C9246EB9FD00AC896E /* chill06_A.wav */; };
+		04BA07D0246EB9FD00AC896E /* chill02_F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07CA246EB9FD00AC896E /* chill02_F.wav */; };
+		04BA07D1246EB9FD00AC896E /* chill04_G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07CB246EB9FD00AC896E /* chill04_G.wav */; };
+		04BA07D3246EBA1B00AC896E /* Rec3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA07D2246EBA1B00AC896E /* Rec3ViewController.swift */; };
+		04BA07D7246ECEDE00AC896E /* Rec4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BA07D6246ECEDE00AC896E /* Rec4ViewController.swift */; };
+		04BA07EF246ED16D00AC896E /* paino1-20.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07D8246ED16600AC896E /* paino1-20.wav */; };
+		04BA07F0246ED16D00AC896E /* paino1-22.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07D9246ED16700AC896E /* paino1-22.wav */; };
+		04BA07F1246ED16D00AC896E /* paino1-21.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07DA246ED16700AC896E /* paino1-21.wav */; };
+		04BA07F2246ED16D00AC896E /* paino1-02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07DB246ED16700AC896E /* paino1-02.wav */; };
+		04BA07F3246ED16D00AC896E /* paino1-09.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07DC246ED16700AC896E /* paino1-09.wav */; };
+		04BA07F4246ED16D00AC896E /* paino1-08.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07DD246ED16800AC896E /* paino1-08.wav */; };
+		04BA07F5246ED16D00AC896E /* paino1-10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07DE246ED16800AC896E /* paino1-10.wav */; };
+		04BA07F6246ED16D00AC896E /* paino1-07.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07DF246ED16900AC896E /* paino1-07.wav */; };
+		04BA07F7246ED16D00AC896E /* paino1-12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07E0246ED16900AC896E /* paino1-12.wav */; };
+		04BA07F8246ED16D00AC896E /* paino1-19.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07E1246ED16900AC896E /* paino1-19.wav */; };
+		04BA07F9246ED16D00AC896E /* paino1-18.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07E2246ED16900AC896E /* paino1-18.wav */; };
+		04BA07FA246ED16D00AC896E /* paino1-06.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07E3246ED16A00AC896E /* paino1-06.wav */; };
+		04BA07FB246ED16D00AC896E /* paino1-16.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07E4246ED16A00AC896E /* paino1-16.wav */; };
+		04BA07FC246ED16D00AC896E /* paino1-23.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07E5246ED16A00AC896E /* paino1-23.wav */; };
+		04BA07FD246ED16D00AC896E /* paino1-15.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07E6246ED16B00AC896E /* paino1-15.wav */; };
+		04BA07FE246ED16D00AC896E /* paino1-14.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07E7246ED16B00AC896E /* paino1-14.wav */; };
+		04BA07FF246ED16D00AC896E /* paino1-01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07E8246ED16B00AC896E /* paino1-01.wav */; };
+		04BA0800246ED16D00AC896E /* paino1-03.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07E9246ED16B00AC896E /* paino1-03.wav */; };
+		04BA0801246ED16D00AC896E /* paino1-11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07EA246ED16C00AC896E /* paino1-11.wav */; };
+		04BA0802246ED16D00AC896E /* paino1-05.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07EB246ED16C00AC896E /* paino1-05.wav */; };
+		04BA0803246ED16D00AC896E /* paino1-13.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07EC246ED16C00AC896E /* paino1-13.wav */; };
+		04BA0804246ED16D00AC896E /* paino1-04.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07ED246ED16D00AC896E /* paino1-04.wav */; };
+		04BA0805246ED16D00AC896E /* paino1-17.wav in Resources */ = {isa = PBXBuildFile; fileRef = 04BA07EE246ED16D00AC896E /* paino1-17.wav */; };
+		04C2C45A2472B0E400F7E469 /* copyright.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04C2C4592472B0E300F7E469 /* copyright.jpg */; };
+		04DA7C95246AF861000AEFF7 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA7C8A246AF770000AEFF7 /* ChartViewController.swift */; };
+		04DA7C96246AF863000AEFF7 /* MacawChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA7C92246AF770000AEFF7 /* MacawChartView.swift */; };
+		04E055202435182A00545BEE /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0551F2435182A00545BEE /* Track.swift */; };
+		04FD8A342437BEF6004055F6 /* CommentaireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD8A332437BEF6004055F6 /* CommentaireViewController.swift */; };
+		04FD8A362437BF2C004055F6 /* CommentaireTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD8A352437BF2C004055F6 /* CommentaireTableViewCell.swift */; };
+		04FD8A382437EC1E004055F6 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FD8A372437EC1E004055F6 /* Comment.swift */; };
+		4F2FB0C68EC61ED00D3F1435 /* Pods_FingerDrum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 120A08ACA2DBA7F80AEF4DE5 /* Pods_FingerDrum.framework */; };
+		F63921DA5D073BDAE1F2C994 /* Pods_FingerDrum_FingerDrumUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF25B5A297F73B706DD081B /* Pods_FingerDrum_FingerDrumUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +116,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04072D84246EAFEA008AD0AF /* TR606-Kic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TR606-Kic.wav"; sourceTree = "<group>"; };
+		04072D85246EAFEA008AD0AF /* TR606-Tom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TR606-Tom.wav"; sourceTree = "<group>"; };
+		04072D86246EAFEB008AD0AF /* TR606-Snr.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TR606-Snr.wav"; sourceTree = "<group>"; };
+		04072D87246EAFEB008AD0AF /* TR606-Hat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TR606-Hat.wav"; sourceTree = "<group>"; };
+		04072D88246EAFEB008AD0AF /* TR606-HiH.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TR606-HiH.wav"; sourceTree = "<group>"; };
+		04072D89246EAFEC008AD0AF /* TR606-Cym.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TR606-Cym.wav"; sourceTree = "<group>"; };
+		04072D8A246EAFEC008AD0AF /* TR606-OpH.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "TR606-OpH.wav"; sourceTree = "<group>"; };
+		040E666D245F9E7D001D7D12 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
+		040E666E245F9E7E001D7D12 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
+		040E666F245F9E7F001D7D12 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
+		040E6675245FA17B001D7D12 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		0413586524323EAE00F34A32 /* FingerDrum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerDrum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0413586824323EAE00F34A32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0413586A24323EAE00F34A32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0413586D24323EAE00F34A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0413587024323EAF00F34A32 /* FingerDrum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FingerDrum.xcdatamodel; sourceTree = "<group>"; };
-		0413587224323EB000F34A32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0413587524323EB000F34A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0413587724323EB000F34A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0413587C24323EB000F34A32 /* FingerDrumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerDrumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +140,83 @@
 		0413588724323EB000F34A32 /* FingerDrumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerDrumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0413588B24323EB000F34A32 /* FingerDrumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerDrumUITests.swift; sourceTree = "<group>"; };
 		0413588D24323EB000F34A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0413589A24329AF300F34A32 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0413589E2432AB8100F34A32 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		041F7A8C2453BD0800445080 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		042100F8246AF89200CD2D9F /* SwiftNewsVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNewsVideo.swift; sourceTree = "<group>"; };
+		04426E522433BA3F00A89511 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		04426E592433BDA800A89511 /* FirstInsideCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstInsideCollectionViewCell.swift; sourceTree = "<group>"; };
+		04515020246BFB2C009D3A69 /* ShowTrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTrackDetailsViewController.swift; sourceTree = "<group>"; };
+		04515023246C0C7E009D3A69 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		04515025246C39B7009D3A69 /* AdminCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminCTableViewCell.swift; sourceTree = "<group>"; };
+		04515027246C3A2D009D3A69 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		0475E2842453A1AE0021C3FA /* CaviarDreams_BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_BoldItalic.ttf; sourceTree = "<group>"; };
+		0475E2852453A1AE0021C3FA /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams.ttf; sourceTree = "<group>"; };
+		0475E2862453A1AE0021C3FA /* CaviarDreams_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Italic.ttf; sourceTree = "<group>"; };
+		0475E2872453A1AE0021C3FA /* CaviarDreams_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams_Bold.ttf; sourceTree = "<group>"; };
+		0475E28E2453AF770021C3FA /* musc_home12.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = musc_home12.mp4; sourceTree = "<group>"; };
+		0479319B245FECF8006CEA45 /* drumkit-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit-1.wav"; sourceTree = "<group>"; };
+		0479319C245FECF8006CEA45 /* drumkit-0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit-0.wav"; sourceTree = "<group>"; };
+		0479319D245FECF8006CEA45 /* drumkit-2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit-2.wav"; sourceTree = "<group>"; };
+		0479319E245FECF8006CEA45 /* drumkit-3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit-3.wav"; sourceTree = "<group>"; };
+		0479319F245FECF8006CEA45 /* drumkit-6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit-6.wav"; sourceTree = "<group>"; };
+		047931A0245FECF8006CEA45 /* drumkit-4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit-4.wav"; sourceTree = "<group>"; };
+		047931A1245FECF8006CEA45 /* drumkit-5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "drumkit-5.wav"; sourceTree = "<group>"; };
+		047931A3245FED03006CEA45 /* DrumKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumKit.swift; sourceTree = "<group>"; };
+		047931B3245FEDC9006CEA45 /* DrummerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrummerViewController.swift; sourceTree = "<group>"; };
+		047931B4245FEDC9006CEA45 /* RecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecViewController.swift; sourceTree = "<group>"; };
+		047931B724600763006CEA45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../FingerDrum 3/FingerDrum/Assets.xcassets"; sourceTree = "<group>"; };
+		047931B924600B6C006CEA45 /* PopUpWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpWindow.swift; sourceTree = "<group>"; };
+		04BA07C0246EB55300AC896E /* Rec2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rec2ViewController.swift; sourceTree = "<group>"; };
+		04BA07C2246EB96100AC896E /* Synth Chord F#m.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Synth Chord F#m.wav"; sourceTree = "<group>"; };
+		04BA07C4246EB98300AC896E /* Synth Chords Cm11-122bpm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Synth Chords Cm11-122bpm.wav"; sourceTree = "<group>"; };
+		04BA07C6246EB9FC00AC896E /* chill03_F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chill03_F.wav; sourceTree = "<group>"; };
+		04BA07C7246EB9FC00AC896E /* chill01_E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chill01_E.wav; sourceTree = "<group>"; };
+		04BA07C8246EB9FC00AC896E /* chill05_A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chill05_A.wav; sourceTree = "<group>"; };
+		04BA07C9246EB9FD00AC896E /* chill06_A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chill06_A.wav; sourceTree = "<group>"; };
+		04BA07CA246EB9FD00AC896E /* chill02_F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chill02_F.wav; sourceTree = "<group>"; };
+		04BA07CB246EB9FD00AC896E /* chill04_G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chill04_G.wav; sourceTree = "<group>"; };
+		04BA07D2246EBA1B00AC896E /* Rec3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rec3ViewController.swift; sourceTree = "<group>"; };
+		04BA07D6246ECEDE00AC896E /* Rec4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rec4ViewController.swift; sourceTree = "<group>"; };
+		04BA07D8246ED16600AC896E /* paino1-20.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-20.wav"; sourceTree = "<group>"; };
+		04BA07D9246ED16700AC896E /* paino1-22.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-22.wav"; sourceTree = "<group>"; };
+		04BA07DA246ED16700AC896E /* paino1-21.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-21.wav"; sourceTree = "<group>"; };
+		04BA07DB246ED16700AC896E /* paino1-02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-02.wav"; sourceTree = "<group>"; };
+		04BA07DC246ED16700AC896E /* paino1-09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-09.wav"; sourceTree = "<group>"; };
+		04BA07DD246ED16800AC896E /* paino1-08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-08.wav"; sourceTree = "<group>"; };
+		04BA07DE246ED16800AC896E /* paino1-10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-10.wav"; sourceTree = "<group>"; };
+		04BA07DF246ED16900AC896E /* paino1-07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-07.wav"; sourceTree = "<group>"; };
+		04BA07E0246ED16900AC896E /* paino1-12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-12.wav"; sourceTree = "<group>"; };
+		04BA07E1246ED16900AC896E /* paino1-19.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-19.wav"; sourceTree = "<group>"; };
+		04BA07E2246ED16900AC896E /* paino1-18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-18.wav"; sourceTree = "<group>"; };
+		04BA07E3246ED16A00AC896E /* paino1-06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-06.wav"; sourceTree = "<group>"; };
+		04BA07E4246ED16A00AC896E /* paino1-16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-16.wav"; sourceTree = "<group>"; };
+		04BA07E5246ED16A00AC896E /* paino1-23.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-23.wav"; sourceTree = "<group>"; };
+		04BA07E6246ED16B00AC896E /* paino1-15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-15.wav"; sourceTree = "<group>"; };
+		04BA07E7246ED16B00AC896E /* paino1-14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-14.wav"; sourceTree = "<group>"; };
+		04BA07E8246ED16B00AC896E /* paino1-01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-01.wav"; sourceTree = "<group>"; };
+		04BA07E9246ED16B00AC896E /* paino1-03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-03.wav"; sourceTree = "<group>"; };
+		04BA07EA246ED16C00AC896E /* paino1-11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-11.wav"; sourceTree = "<group>"; };
+		04BA07EB246ED16C00AC896E /* paino1-05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-05.wav"; sourceTree = "<group>"; };
+		04BA07EC246ED16C00AC896E /* paino1-13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-13.wav"; sourceTree = "<group>"; };
+		04BA07ED246ED16D00AC896E /* paino1-04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-04.wav"; sourceTree = "<group>"; };
+		04BA07EE246ED16D00AC896E /* paino1-17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "paino1-17.wav"; sourceTree = "<group>"; };
+		04C2C4592472B0E300F7E469 /* copyright.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = copyright.jpg; sourceTree = "<group>"; };
+		04DA7C8A246AF770000AEFF7 /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		04DA7C92246AF770000AEFF7 /* MacawChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacawChartView.swift; sourceTree = "<group>"; };
+		04E0551F2435182A00545BEE /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		04FD8A332437BEF6004055F6 /* CommentaireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentaireViewController.swift; sourceTree = "<group>"; };
+		04FD8A352437BF2C004055F6 /* CommentaireTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentaireTableViewCell.swift; sourceTree = "<group>"; };
+		04FD8A372437EC1E004055F6 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		120A08ACA2DBA7F80AEF4DE5 /* Pods_FingerDrum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FingerDrum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		597E613D30D34C10DE5014B2 /* Pods-FingerDrum-FingerDrumUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerDrum-FingerDrumUITests.release.xcconfig"; path = "Target Support Files/Pods-FingerDrum-FingerDrumUITests/Pods-FingerDrum-FingerDrumUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6AF25B5A297F73B706DD081B /* Pods_FingerDrum_FingerDrumUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FingerDrum_FingerDrumUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		801334458191EB40C15F5C4D /* Pods-FingerDrumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerDrumTests.debug.xcconfig"; path = "Target Support Files/Pods-FingerDrumTests/Pods-FingerDrumTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE748AAD3CF25EAF99A5C74D /* Pods-FingerDrum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerDrum.debug.xcconfig"; path = "Target Support Files/Pods-FingerDrum/Pods-FingerDrum.debug.xcconfig"; sourceTree = "<group>"; };
+		C5793CBF5F75FE9C9E4202F9 /* Pods-FingerDrum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerDrum.release.xcconfig"; path = "Target Support Files/Pods-FingerDrum/Pods-FingerDrum.release.xcconfig"; sourceTree = "<group>"; };
+		CF783552DC9B8597F65B594B /* Pods-FingerDrumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerDrumTests.release.xcconfig"; path = "Target Support Files/Pods-FingerDrumTests/Pods-FingerDrumTests.release.xcconfig"; sourceTree = "<group>"; };
+		DCF7C6CD4296F43D4E5B1F11 /* Pods_FingerDrumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FingerDrumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F166DC6EF5C076EFCD3E5E89 /* Pods-FingerDrum-FingerDrumUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerDrum-FingerDrumUITests.debug.xcconfig"; path = "Target Support Files/Pods-FingerDrum-FingerDrumUITests/Pods-FingerDrum-FingerDrumUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +224,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F2FB0C68EC61ED00D3F1435 /* Pods_FingerDrum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +232,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0361180E68D4D12AF0FECB14 /* Pods_FingerDrumTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +240,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63921DA5D073BDAE1F2C994 /* Pods_FingerDrum_FingerDrumUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040E666C245F9E55001D7D12 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				040E666F245F9E7F001D7D12 /* song1.mp3 */,
+				040E666D245F9E7D001D7D12 /* song2.mp3 */,
+				040E666E245F9E7E001D7D12 /* song3.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
 		0413585C24323EAE00F34A32 = {
 			isa = PBXGroup;
 			children = (
+				042100F8246AF89200CD2D9F /* SwiftNewsVideo.swift */,
+				04DA7C89246AF770000AEFF7 /* IOT-MobileDashboard */,
+				047931A2245FED03006CEA45 /* Model */,
+				0479319A245FECF8006CEA45 /* Audio Files */,
+				040E666C245F9E55001D7D12 /* Audio */,
+				0475E2832453A11F0021C3FA /* Fonts */,
+				04426E562433BA6D00A89511 /* Controllers */,
+				04426E512433B8F400A89511 /* Cell */,
+				0413589924329AE200F34A32 /* Model */,
 				0413586724323EAE00F34A32 /* FingerDrum */,
 				0413587F24323EB000F34A32 /* FingerDrumTests */,
 				0413588A24323EB000F34A32 /* FingerDrumUITests */,
 				0413586624323EAE00F34A32 /* Products */,
+				CA1E6EA442EDCE928810C0EC /* Pods */,
+				985AD4335B83CF39AD796F07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +293,21 @@
 			children = (
 				0413586824323EAE00F34A32 /* AppDelegate.swift */,
 				0413586A24323EAE00F34A32 /* ViewController.swift */,
+				047931B924600B6C006CEA45 /* PopUpWindow.swift */,
+				04515027246C3A2D009D3A69 /* AdminViewController.swift */,
+				040E6675245FA17B001D7D12 /* PlayerViewController.swift */,
+				041F7A8C2453BD0800445080 /* ProfileViewController.swift */,
+				047931B724600763006CEA45 /* Assets.xcassets */,
+				04C2C4592472B0E300F7E469 /* copyright.jpg */,
 				0413586C24323EAE00F34A32 /* Main.storyboard */,
-				0413587224323EB000F34A32 /* Assets.xcassets */,
+				0413589E2432AB8100F34A32 /* HomeViewController.swift */,
+				04FD8A332437BEF6004055F6 /* CommentaireViewController.swift */,
+				0475E28E2453AF770021C3FA /* musc_home12.mp4 */,
 				0413587424323EB000F34A32 /* LaunchScreen.storyboard */,
 				0413587724323EB000F34A32 /* Info.plist */,
 				0413586F24323EAF00F34A32 /* FingerDrum.xcdatamodeld */,
+				04515020246BFB2C009D3A69 /* ShowTrackDetailsViewController.swift */,
+				04515023246C0C7E009D3A69 /* SignUpViewController.swift */,
 			);
 			path = FingerDrum;
 			sourceTree = "<group>";
@@ -128,6 +330,143 @@
 			path = FingerDrumUITests;
 			sourceTree = "<group>";
 		};
+		0413589924329AE200F34A32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0413589A24329AF300F34A32 /* User.swift */,
+				04E0551F2435182A00545BEE /* Track.swift */,
+				04FD8A372437EC1E004055F6 /* Comment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04426E512433B8F400A89511 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04426E522433BA3F00A89511 /* FirstTableViewCell.swift */,
+				04426E592433BDA800A89511 /* FirstInsideCollectionViewCell.swift */,
+				04FD8A352437BF2C004055F6 /* CommentaireTableViewCell.swift */,
+				04515025246C39B7009D3A69 /* AdminCTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		04426E562433BA6D00A89511 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				047931B3245FEDC9006CEA45 /* DrummerViewController.swift */,
+				047931B4245FEDC9006CEA45 /* RecViewController.swift */,
+				04BA07C0246EB55300AC896E /* Rec2ViewController.swift */,
+				04BA07D2246EBA1B00AC896E /* Rec3ViewController.swift */,
+				04BA07D6246ECEDE00AC896E /* Rec4ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0475E2832453A11F0021C3FA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0475E2872453A1AE0021C3FA /* CaviarDreams_Bold.ttf */,
+				0475E2842453A1AE0021C3FA /* CaviarDreams_BoldItalic.ttf */,
+				0475E2862453A1AE0021C3FA /* CaviarDreams_Italic.ttf */,
+				0475E2852453A1AE0021C3FA /* CaviarDreams.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0479319A245FECF8006CEA45 /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				0479319B245FECF8006CEA45 /* drumkit-1.wav */,
+				0479319C245FECF8006CEA45 /* drumkit-0.wav */,
+				0479319D245FECF8006CEA45 /* drumkit-2.wav */,
+				0479319E245FECF8006CEA45 /* drumkit-3.wav */,
+				0479319F245FECF8006CEA45 /* drumkit-6.wav */,
+				047931A0245FECF8006CEA45 /* drumkit-4.wav */,
+				047931A1245FECF8006CEA45 /* drumkit-5.wav */,
+				04072D89246EAFEC008AD0AF /* TR606-Cym.wav */,
+				04072D87246EAFEB008AD0AF /* TR606-Hat.wav */,
+				04072D88246EAFEB008AD0AF /* TR606-HiH.wav */,
+				04072D84246EAFEA008AD0AF /* TR606-Kic.wav */,
+				04072D85246EAFEA008AD0AF /* TR606-Tom.wav */,
+				04072D8A246EAFEC008AD0AF /* TR606-OpH.wav */,
+				04072D86246EAFEB008AD0AF /* TR606-Snr.wav */,
+				04BA07C2246EB96100AC896E /* Synth Chord F#m.wav */,
+				04BA07C4246EB98300AC896E /* Synth Chords Cm11-122bpm.wav */,
+				04BA07C7246EB9FC00AC896E /* chill01_E.wav */,
+				04BA07CA246EB9FD00AC896E /* chill02_F.wav */,
+				04BA07C6246EB9FC00AC896E /* chill03_F.wav */,
+				04BA07CB246EB9FD00AC896E /* chill04_G.wav */,
+				04BA07C8246EB9FC00AC896E /* chill05_A.wav */,
+				04BA07C9246EB9FD00AC896E /* chill06_A.wav */,
+				04BA07E8246ED16B00AC896E /* paino1-01.wav */,
+				04BA07DB246ED16700AC896E /* paino1-02.wav */,
+				04BA07E9246ED16B00AC896E /* paino1-03.wav */,
+				04BA07ED246ED16D00AC896E /* paino1-04.wav */,
+				04BA07EB246ED16C00AC896E /* paino1-05.wav */,
+				04BA07E3246ED16A00AC896E /* paino1-06.wav */,
+				04BA07DF246ED16900AC896E /* paino1-07.wav */,
+				04BA07DD246ED16800AC896E /* paino1-08.wav */,
+				04BA07DC246ED16700AC896E /* paino1-09.wav */,
+				04BA07DE246ED16800AC896E /* paino1-10.wav */,
+				04BA07EA246ED16C00AC896E /* paino1-11.wav */,
+				04BA07E0246ED16900AC896E /* paino1-12.wav */,
+				04BA07EC246ED16C00AC896E /* paino1-13.wav */,
+				04BA07E7246ED16B00AC896E /* paino1-14.wav */,
+				04BA07E6246ED16B00AC896E /* paino1-15.wav */,
+				04BA07E4246ED16A00AC896E /* paino1-16.wav */,
+				04BA07EE246ED16D00AC896E /* paino1-17.wav */,
+				04BA07E2246ED16900AC896E /* paino1-18.wav */,
+				04BA07E1246ED16900AC896E /* paino1-19.wav */,
+				04BA07D8246ED16600AC896E /* paino1-20.wav */,
+				04BA07DA246ED16700AC896E /* paino1-21.wav */,
+				04BA07D9246ED16700AC896E /* paino1-22.wav */,
+				04BA07E5246ED16A00AC896E /* paino1-23.wav */,
+			);
+			path = "Audio Files";
+			sourceTree = "<group>";
+		};
+		047931A2245FED03006CEA45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				047931A3245FED03006CEA45 /* DrumKit.swift */,
+			);
+			name = Model;
+			path = "../../IOS PROJECT/Drummer ( AutoLayout )/Drummer/Model";
+			sourceTree = "<group>";
+		};
+		04DA7C89246AF770000AEFF7 /* IOT-MobileDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				04DA7C8A246AF770000AEFF7 /* ChartViewController.swift */,
+				04DA7C92246AF770000AEFF7 /* MacawChartView.swift */,
+			);
+			path = "IOT-MobileDashboard";
+			sourceTree = "<group>";
+		};
+		985AD4335B83CF39AD796F07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				120A08ACA2DBA7F80AEF4DE5 /* Pods_FingerDrum.framework */,
+				6AF25B5A297F73B706DD081B /* Pods_FingerDrum_FingerDrumUITests.framework */,
+				DCF7C6CD4296F43D4E5B1F11 /* Pods_FingerDrumTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA1E6EA442EDCE928810C0EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE748AAD3CF25EAF99A5C74D /* Pods-FingerDrum.debug.xcconfig */,
+				C5793CBF5F75FE9C9E4202F9 /* Pods-FingerDrum.release.xcconfig */,
+				F166DC6EF5C076EFCD3E5E89 /* Pods-FingerDrum-FingerDrumUITests.debug.xcconfig */,
+				597E613D30D34C10DE5014B2 /* Pods-FingerDrum-FingerDrumUITests.release.xcconfig */,
+				801334458191EB40C15F5C4D /* Pods-FingerDrumTests.debug.xcconfig */,
+				CF783552DC9B8597F65B594B /* Pods-FingerDrumTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +474,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0413589024323EB000F34A32 /* Build configuration list for PBXNativeTarget "FingerDrum" */;
 			buildPhases = (
+				21548452BE2B09614CA55687 /* [CP] Check Pods Manifest.lock */,
 				0413586124323EAE00F34A32 /* Sources */,
 				0413586224323EAE00F34A32 /* Frameworks */,
 				0413586324323EAE00F34A32 /* Resources */,
+				E9CBB58F6EA71CB21F3EC77C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +493,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0413589324323EB000F34A32 /* Build configuration list for PBXNativeTarget "FingerDrumTests" */;
 			buildPhases = (
+				C357805E440052FB4B2A1963 /* [CP] Check Pods Manifest.lock */,
 				0413587824323EB000F34A32 /* Sources */,
 				0413587924323EB000F34A32 /* Frameworks */,
 				0413587A24323EB000F34A32 /* Resources */,
@@ -170,9 +512,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0413589624323EB000F34A32 /* Build configuration list for PBXNativeTarget "FingerDrumUITests" */;
 			buildPhases = (
+				129FBCF2DB7AC63BFC22345F /* [CP] Check Pods Manifest.lock */,
 				0413588324323EB000F34A32 /* Sources */,
 				0413588424323EB000F34A32 /* Frameworks */,
 				0413588524323EB000F34A32 /* Resources */,
+				D40E349301668EB83003D6BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +540,11 @@
 				TargetAttributes = {
 					0413586424323EAE00F34A32 = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					0413587B24323EB000F34A32 = {
 						CreatedOnToolsVersion = 10.3;
@@ -233,8 +582,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				0413587624323EB000F34A32 /* LaunchScreen.storyboard in Resources */,
-				0413587324323EB000F34A32 /* Assets.xcassets in Resources */,
-				0413586E24323EAE00F34A32 /* Main.storyboard in Resources */,
+				04BA07D0246EB9FD00AC896E /* chill02_F.wav in Resources */,
+				040E6672245F9E7F001D7D12 /* song1.mp3 in Resources */,
+				047931B1245FED0E006CEA45 /* drumkit-4.wav in Resources */,
+				04BA07F3246ED16D00AC896E /* paino1-09.wav in Resources */,
+				047931B824600763006CEA45 /* Assets.xcassets in Resources */,
+				04BA07C5246EB98300AC896E /* Synth Chords Cm11-122bpm.wav in Resources */,
+				04BA07D1246EB9FD00AC896E /* chill04_G.wav in Resources */,
+				04BA07FF246ED16D00AC896E /* paino1-01.wav in Resources */,
+				04BA07F2246ED16D00AC896E /* paino1-02.wav in Resources */,
+				047931B2245FED0E006CEA45 /* drumkit-5.wav in Resources */,
+				04BA07CC246EB9FD00AC896E /* chill03_F.wav in Resources */,
+				04BA07FE246ED16D00AC896E /* paino1-14.wav in Resources */,
+				04BA07FB246ED16D00AC896E /* paino1-16.wav in Resources */,
+				04BA07C3246EB96100AC896E /* Synth Chord F#m.wav in Resources */,
+				04BA07F5246ED16D00AC896E /* paino1-10.wav in Resources */,
+				04BA07FC246ED16D00AC896E /* paino1-23.wav in Resources */,
+				047931AC245FED0E006CEA45 /* drumkit-1.wav in Resources */,
+				04072D91246EAFEC008AD0AF /* TR606-OpH.wav in Resources */,
+				040E6670245F9E7F001D7D12 /* song2.mp3 in Resources */,
+				04BA0802246ED16D00AC896E /* paino1-05.wav in Resources */,
+				04BA07EF246ED16D00AC896E /* paino1-20.wav in Resources */,
+				0475E2892453A1AE0021C3FA /* CaviarDreams.ttf in Resources */,
+				047931AD245FED0E006CEA45 /* drumkit-0.wav in Resources */,
+				0475E28B2453A1AE0021C3FA /* CaviarDreams_Bold.ttf in Resources */,
+				0475E28F2453AF770021C3FA /* musc_home12.mp4 in Resources */,
+				04BA0805246ED16D00AC896E /* paino1-17.wav in Resources */,
+				047931AF245FED0E006CEA45 /* drumkit-3.wav in Resources */,
+				047931B0245FED0E006CEA45 /* drumkit-6.wav in Resources */,
+				04BA07CE246EB9FD00AC896E /* chill05_A.wav in Resources */,
+				04BA07CD246EB9FD00AC896E /* chill01_E.wav in Resources */,
+				04072D90246EAFEC008AD0AF /* TR606-Cym.wav in Resources */,
+				047931AE245FED0E006CEA45 /* drumkit-2.wav in Resources */,
+				04BA07FD246ED16D00AC896E /* paino1-15.wav in Resources */,
+				04072D8B246EAFEC008AD0AF /* TR606-Kic.wav in Resources */,
+				04BA07F0246ED16D00AC896E /* paino1-22.wav in Resources */,
+				040E6671245F9E7F001D7D12 /* song3.mp3 in Resources */,
+				04072D8C246EAFEC008AD0AF /* TR606-Tom.wav in Resources */,
+				04515022246C0C4E009D3A69 /* Main.storyboard in Resources */,
+				0475E28A2453A1AE0021C3FA /* CaviarDreams_Italic.ttf in Resources */,
+				04072D8E246EAFEC008AD0AF /* TR606-Hat.wav in Resources */,
+				0475E2882453A1AE0021C3FA /* CaviarDreams_BoldItalic.ttf in Resources */,
+				04BA07F9246ED16D00AC896E /* paino1-18.wav in Resources */,
+				04C2C45A2472B0E400F7E469 /* copyright.jpg in Resources */,
+				04BA07FA246ED16D00AC896E /* paino1-06.wav in Resources */,
+				04BA07F4246ED16D00AC896E /* paino1-08.wav in Resources */,
+				04BA0800246ED16D00AC896E /* paino1-03.wav in Resources */,
+				04072D8F246EAFEC008AD0AF /* TR606-HiH.wav in Resources */,
+				04BA07F1246ED16D00AC896E /* paino1-21.wav in Resources */,
+				04BA07F8246ED16D00AC896E /* paino1-19.wav in Resources */,
+				04072D8D246EAFEC008AD0AF /* TR606-Snr.wav in Resources */,
+				04BA07F7246ED16D00AC896E /* paino1-12.wav in Resources */,
+				04BA0801246ED16D00AC896E /* paino1-11.wav in Resources */,
+				04BA07F6246ED16D00AC896E /* paino1-07.wav in Resources */,
+				04BA0803246ED16D00AC896E /* paino1-13.wav in Resources */,
+				04BA07CF246EB9FD00AC896E /* chill06_A.wav in Resources */,
+				04BA0804246ED16D00AC896E /* paino1-04.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +657,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		129FBCF2DB7AC63BFC22345F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FingerDrum-FingerDrumUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21548452BE2B09614CA55687 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FingerDrum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C357805E440052FB4B2A1963 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FingerDrumTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D40E349301668EB83003D6BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FingerDrum-FingerDrumUITests/Pods-FingerDrum-FingerDrumUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FingerDrum-FingerDrumUITests/Pods-FingerDrum-FingerDrumUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FingerDrum-FingerDrumUITests/Pods-FingerDrum-FingerDrumUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9CBB58F6EA71CB21F3EC77C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FingerDrum/Pods-FingerDrum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FingerDrum/Pods-FingerDrum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FingerDrum/Pods-FingerDrum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0413586124323EAE00F34A32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04515024246C0C7E009D3A69 /* SignUpViewController.swift in Sources */,
+				0413589B24329AF300F34A32 /* User.swift in Sources */,
+				042100F9246AF89400CD2D9F /* SwiftNewsVideo.swift in Sources */,
+				04DA7C96246AF863000AEFF7 /* MacawChartView.swift in Sources */,
+				047931B5245FEDCC006CEA45 /* DrummerViewController.swift in Sources */,
+				04426E5A2433BDA800A89511 /* FirstInsideCollectionViewCell.swift in Sources */,
+				04515029246C3A2F009D3A69 /* ProfileViewController.swift in Sources */,
+				04BA07C1246EB55300AC896E /* Rec2ViewController.swift in Sources */,
 				0413586B24323EAE00F34A32 /* ViewController.swift in Sources */,
-				0413586924323EAE00F34A32 /* AppDelegate.swift in Sources */,
+				040E6676245FA17B001D7D12 /* PlayerViewController.swift in Sources */,
+				04DA7C95246AF861000AEFF7 /* ChartViewController.swift in Sources */,
+				04793199245FDCCD006CEA45 /* AppDelegate.swift in Sources */,
+				04FD8A362437BF2C004055F6 /* CommentaireTableViewCell.swift in Sources */,
 				0413587124323EAF00F34A32 /* FingerDrum.xcdatamodeld in Sources */,
+				04515028246C3A2D009D3A69 /* AdminViewController.swift in Sources */,
+				04515026246C39B7009D3A69 /* AdminCTableViewCell.swift in Sources */,
+				047931BA24600B6C006CEA45 /* PopUpWindow.swift in Sources */,
+				04E055202435182A00545BEE /* Track.swift in Sources */,
+				047931A4245FED08006CEA45 /* DrumKit.swift in Sources */,
+				047931B6245FEDCC006CEA45 /* RecViewController.swift in Sources */,
+				04FD8A382437EC1E004055F6 /* Comment.swift in Sources */,
+				04BA07D3246EBA1B00AC896E /* Rec3ViewController.swift in Sources */,
+				04515021246BFB2C009D3A69 /* ShowTrackDetailsViewController.swift in Sources */,
+				0413589F2432AB8100F34A32 /* HomeViewController.swift in Sources */,
+				04426E532433BA3F00A89511 /* FirstTableViewCell.swift in Sources */,
+				04FD8A342437BEF6004055F6 /* CommentaireViewController.swift in Sources */,
+				04BA07D7246ECEDE00AC896E /* Rec4ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +849,7 @@
 		0413588E24323EB000F34A32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -374,12 +905,14 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		0413588F24323EB000F34A32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -428,13 +961,16 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		0413589124323EB000F34A32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE748AAD3CF25EAF99A5C74D /* Pods-FingerDrum.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M27DCL3HVZ;
@@ -452,7 +988,9 @@
 		};
 		0413589224323EB000F34A32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5793CBF5F75FE9C9E4202F9 /* Pods-FingerDrum.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M27DCL3HVZ;
@@ -470,8 +1008,9 @@
 		};
 		0413589424323EB000F34A32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801334458191EB40C15F5C4D /* Pods-FingerDrumTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M27DCL3HVZ;
@@ -491,8 +1030,9 @@
 		};
 		0413589524323EB000F34A32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF783552DC9B8597F65B594B /* Pods-FingerDrumTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M27DCL3HVZ;
@@ -512,8 +1052,9 @@
 		};
 		0413589724323EB000F34A32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F166DC6EF5C076EFCD3E5E89 /* Pods-FingerDrum-FingerDrumUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M27DCL3HVZ;
 				INFOPLIST_FILE = FingerDrumUITests/Info.plist;
@@ -532,8 +1073,9 @@
 		};
 		0413589824323EB000F34A32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 597E613D30D34C10DE5014B2 /* Pods-FingerDrum-FingerDrumUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M27DCL3HVZ;
 				INFOPLIST_FILE = FingerDrumUITests/Info.plist;

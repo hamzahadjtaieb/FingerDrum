@@ -1,0 +1,6 @@
+framework module Pods_FingerDrumTests {
+  umbrella header "Pods-FingerDrumTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - Macaw (0.9.5):
+    - SWXMLHash
+  - SwiftyJSON (4.3.0)
+  - SWXMLHash (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AlamofireImage
+  - Macaw (= 0.9.5)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - Macaw
+    - SwiftyJSON
+    - SWXMLHash
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  Macaw: 10bf9e327cb75f24e3225d5229a80ed544df85f0
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  SWXMLHash: 9cc0c2e4807926c74377724aa8722ee5707a0485
+
+PODFILE CHECKSUM: f29bea9f18780246331729cc8e510067331edd79
+
+COCOAPODS: 1.9.0
